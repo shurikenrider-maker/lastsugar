@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>modern</title>
+  <script src="js/jquery.js"></script>
+  <script src="js/common.js"></script>
+  <link rel="stylesheet" href="css/style-violet.css">
+  <link rel="stylesheet" href="css/fuwaimg.css">
+</head>
+
+<body>
+
+<main>
+
+<div class="container">
+  <div class="row">
+
+    <header>
+      <h1>modern</h1>
+      <p>シンプルかわいいテンプレート</p>
+
+      <ul id="menu">
+        <li><a href="#sec1">Menu1</a></li>
+        <li><a href="#sec2">Menu2</a></li>
+        <li><a href="#sec3">Menu3</a></li>
+      </ul>
+    </header>
+
+    <section id="sec1"> <!-- １カラム始まり -->
+
+      <p>シンプルだけどかわいいテンプレート。<br>
+      テキスト・イラストサイト、プロフィールページなどにどうぞ。</p>
+
+      <ul>
+        <li><a href="text.html">テキストコンテンツサンプル</a></li>
+        <li><a href="illust.html">イラストコンテンツサンプル</a></li>
+        <li><a href="index.html">デフォルトカラーデモ（黄色）</a></li>
+        <li><a href="index_pink.html">色違いデモ（ピンク）</a></li>
+        <li><a href="index_blue.html">色違いデモ（ブルー）</a></li>
+        <li><a href="index_violet.html">色違いデモ（バイオレット）</a></li>
+      </ul>
+
+      <dl class="flex">
+        <dt>2020.2.1</dt>
+        <dd>更新履歴などに使えるボックス</dd>
+        <dt>2020.1.8</dt>
+        <dd>タグを使ってもOKです<br>
+        改行するとこんな感じ</dd>
+        <dt>2019.12.20</dt>
+        <dd>こんなことをしています</dd>
+        <dt>2019.12.1</dt>
+        <dd>あんなことをしました</dd>
+      </dl>
+
+      <h2>h2見出しはこんなデザイン</h2>
+      <p>いまどきWebデザインのトレンドを踏襲しつつ、肩を張り過ぎず気取り過ぎず、個人の趣味サイトにも使いやすい雰囲気に仕上げました。</p>
+
+      <h3>h3見出しはこんなデザイン</h3>
+      <p>そのまま使ってもOK、じぶんで色を変えてもOK。お好きにカスタムしてお使いください。<br>
+      <a href="#">ふつうのリンクはこんな感じ。</a><br>
+      <strong>強調その１。</strong><strong class="marker">マーカー付き強調。</strong></p>
+
+      <h4>h4見出しはこんなデザイン</h4>
+
+      <ul>
+        <li>リストはこんな感じ。</li>
+        <li>h4見出しは箇条書きリストと相性◎です。</li>
+      </ul>
+
+      <a href="#" class="btn01">リンクボタン</a>
+
+      <a href="#" class="btn02">目立つリンクボタン</a>
+
+    </section> <!-- １カラム終わり -->
+
+    <section class="flexbox" id="sec2"> <!-- ２カラム始まり -->
+      <div class="flexbox_inner"> <!-- 左カラム始まり -->
+        <p>sectionにclass="flexbox"を与え、中にdiv class="flexbox_inner"を二つ入れると、２カラムの行になります。</p>
+
+        <div class="box01">
+          <p>色付きのボックスも使えます。<a href="#">タグも使用できます。</a></p>
+          <p>お知らせなどに使えます。</p>
+        </div>
+
+      </div> <!-- 左カラム終わり -->
+
+      <div class="flexbox_inner"> <!-- 右カラム始まり -->
+
+        <div class="box02">
+          <p>枠のみボックスも使えます。これらのボックスは１カラムの行の中でも使えます。</p>
+
+          <p>強調したいこと、注目してほしいことなどを書くのにいいかもです。</p>
+        </div>
+
+      </div> <!-- 右カラム終わり -->
+
+    </section> <!-- ２カラム終わり -->
+
+    <section id="sec3"> <!-- １カラム始まり -->
+
+    <h2>サムネイルつきリンクカード</h2>
+
+    <p>イラスト、漫画、キャラシなどの一覧や、ミニブログに使うことを想定してます。</p>
+
+    <a href="#" class="bigcard"> <!-- カードここから -->
+      <figure>
+        <img src="img/01.jpg" alt="画像の説明">
+      </figure>
+      <div class="text">
+        <h5>イラストのタイトル</h5>
+        <p class="memo">イラストの説明（作成日など）</p>
+        <p>イラストの説明。イラストの説明。</p>
+      </div>
+    </a> <!-- カードここまで -->
+
+    <a href="#" class="bigcard"> <!-- カードここから -->
+      <figure>
+        <img src="img/02.jpg" alt="画像の説明">
+      </figure>
+      <div class="text">
+        <h5>くらげ</h5>
+        <p class="memo">2020.02.02 どこどこで撮影</p>
+        <p>ここの文章が長くなって、カードが縦に長くなると、合わせてサムネイル画像も縦長になります。あんまり文章が長くなると、カードが縦に長すぎて不格好になってしまうので、３～４行程度に収まるようにするのをオススメします。</p>
+      </div>
+    </a> <!-- カードここまで -->
+
+    <a href="#" class="bigcard"> <!-- カードここから -->
+      <figure>
+        <img src="img/03.jpg" alt="画像の説明">
+      </figure>
+      <div class="text">
+        <h5>くじら</h5>
+        <table>
+        	<tbody>
+        		<tr>
+        			<th>テーブルタグ</th>
+        			<td>テーブルタグを使ってもいい感じです</td>
+        		</tr>
+        		<tr>
+        			<th>例えば</th>
+        			<td>作品の説明などを書き込むといい感じ<br>
+              改行するとこんなかんじ</td>
+        		</tr>
+        		<tr>
+        			<th>テスト</th>
+        			<td>テスト</td>
+        		</tr>
+        	</tbody>
+        </table>
+      </div>
+    </a> <!-- カードここまで -->
+
+    <p>イラスト展示用に、リンクをクリックするとふわっと画像が浮き上がる<a href="https://do.gt-gt.org/product/fuwaimg/" target="_blank">fuwaimg</a>を同梱。</p>
+
+    <ul class="illust">
+      <li><a href="img/01.jpg" data-fimg="illust" data-fcaption="ここに説明" class="fuwaimg"><img src="img/01-s.jpg"></a></li>
+      <li><a href="img/02.jpg" data-fimg="illust" data-fcaption="ここに説明" class="fuwaimg"><img src="img/02-s.jpg"></a></li>
+      <li><a href="img/03.jpg" data-fimg="illust" data-fcaption="ここに説明" class="fuwaimg"><img src="img/03-s.jpg"></a></li>
+      <li><a href="img/01.jpg" data-fimg="illust" data-fcaption="ここに説明" class="fuwaimg"><img src="img/01-s.jpg"></a></li>
+      <li><a href="img/02.jpg" data-fimg="illust" data-fcaption="ここに説明" class="fuwaimg"><img src="img/02-s.jpg"></a></li>
+      <li><a href="img/03.jpg" data-fimg="illust" data-fcaption="ここに説明" class="fuwaimg"><img src="img/03-s.jpg"></a></li>
+    </ul>
+
+  </section> <!-- １カラム終わり -->
+
+    <section> <!-- １カラム始まり -->
+      <h2 class="center">コンタクト</h2>
+      <form method="post" action="ここにアクション" class="mailform">
+        <input type="text" name="message" placeholder="お名前">
+        <input type="mail" name="message" placeholder="メールアドレス">
+        <textarea rows="5" name="message" placeholder="本文"></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </section> <!-- １カラム終わり -->
+
+    <footer>
+      <section>
+        <a href="https://do.gt-gt.org/" target="blank">template by do.</a>
+      </section>
+    </footer>
+
+  </div>
+</div>
+
+</main>
+
+<script src="js/scrollbooster.min.js" charset="utf-8"></script>
+<script src="js/fuwaimg.js" charset="utf-8"></script>
+</body>
+
+</html>
