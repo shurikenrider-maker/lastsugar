@@ -1,1 +1,51 @@
 
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>星戴彼我 プロローグ - lastsugar</title>
+  <script src="../../js/jquery.js"></script>
+  <script src="../../js/common.js"></script>
+  <link rel="stylesheet" href="../../css/style-violet.css">
+  <link rel="stylesheet" href="../../css/fuwaimg.css">
+</head>
+
+<body>
+
+<main>
+
+<div class="container">
+  <div class="row">
+
+    <section> <!-- １カラム始まり -->
+      <h2 class="center">星戴彼我</h2>
+      <p class="memo" style="text-align:center;">プロローグ</p>
+
+      <p>　ここに本文を入れます。</p>
+
+      <p>　段落ごとに &lt;p&gt; 〜 &lt;/p&gt; で囲みます。行内で改行したいときは行末に &lt;br&gt; を入れます。</p>
+
+      <!-- 章の移動ナビ -->
+      <p style="text-align:center;">
+        <a href="../03.html">もくじ</a> ｜ <a href="1.html">次の章 →</a>
+      </p>
+
+    </section> <!-- １カラム終わり -->
+
+    <footer>
+      <section>
+        <a href="https://do.gt-gt.org/" target="blank">template by do.</a>
+      </section>
+    </footer>
+
+  </div>
+</div>
+
+</main>
+
+<script src="../../js/scrollbooster.min.js" charset="utf-8"></script>
+<script src="../../js/fuwaimg.js" charset="utf-8"></script>
+</body>
+
+</html>
