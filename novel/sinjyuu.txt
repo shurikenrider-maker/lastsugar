@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta name="robots" content="noindex,noarchive,nofollow,noimageindex">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+<title>絶対に心中したい晋作と、絶対に心中したくない松陰</title>
+ <script src="js/jquery.js"></script>
+  <script src="js/common.js"></script>
+  <link rel="stylesheet" href="css/style-violet.css">
+  <link rel="stylesheet" href="css/fuwaimg.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+<style>
+  body {
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+    line-height: 1.9;
+    color: #2b2b2b;
+    background: #f7f5f0;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 40px 24px 120px;
+  }
+  h1 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    letter-spacing: 0.08em;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .lead {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 48px;
+  }
+  /* 目次 */
+  .toc {
+    border: 1px solid #ddd8cd;
+    padding: 16px 20px;
+    margin-bottom: 56px;
+    font-size: 0.9rem;
+  }
+  .toc ul { list-style: none; padding: 0; margin: 0; }
+  .toc li { display: inline-block; margin: 4px 12px 4px 0; }
+  .toc a { color: #7a6f5d; text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  /* 各話 */
+  .episode {
+    margin-bottom: 64px;
+    scroll-margin-top: 24px; /* 目次から飛んだとき見出しが上に詰まりすぎない */
+  }
+  .episode h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #7a6f5d;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid #e0dccf;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+  }
+  .episode h2 .sub {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-left: 8px;
+  }
+  .episode p { margin: 0 0 1em; }
+  /* 話と話の区切り */
+  .divider {
+    text-align: center;
+    color: #ccc;
+    margin: 0 0 64px;
+    letter-spacing: 0.5em;
+  }
+  .totop {
+    display: block;
+    text-align: right;
+    font-size: 0.8rem;
+    color: #b0a894;
+    text-decoration: none;
+    margin-top: 16px;
+  }
+</style>
+</head>
+<body>
+
+<h1>絶対に心中したい晋作と、絶対に心中したくない松陰</h1>
+<p class="lead">※二次創作／フィクションです</p>
+
+<!-- 目次:各話の id へ飛ぶ -->
+<nav class="toc">
+  <ul>
+    <li><a href="#ep1">其の一 出会い</a></li>
+    <li><a href="#ep2">其の二 読み聞かせ</a></li>
+    <li><a href="#ep3">其の三 ○○</a></li>
+    <!-- 話が増えたらここに1行足すだけ -->
+  </ul>
+</nav>
+
+<!-- ▼ 1話ぶんのかたまり。これをコピーして増やす ▼ -->
+<section class="episode" id="ep1">
+  <h2>其の一<span class="sub">出会い</span></h2>
+  <p>拾われた夜、先生は臓器を売られる覚悟をした。差し出されたのは温かい粥と清潔な寝床。神妙な顔で晋作が口を開く。「代わりに一つ頼みがある」来た、と身構える。「いずれ、僕と心中してくれ」「え。いやです」即答してしまった。</p>
+  <a class="totop" href="#top">▲ 目次へ</a>
+</section>
+<div class="divider">＊</div>
+
+<section class="episode" id="ep2">
+  <h2>其の二<span class="sub">読み聞かせ</span></h2>
+  <p>晋作は毎日大量の薬を飲んでいて、夜中に胸を掻きむしることがある。幼い先生は寝る前に晋作に読み聞かせをする。「どっちが子供か分かりませんね」「せんせぇ…」「先生じゃありません」「今度こそ…」「はいはい」</p>
+  <a class="totop" href="#top">▲ 目次へ</a>
+</section>
+<div class="divider">＊</div>
+
+<section class="episode" id="ep3">
+  <h2>其の三<span class="sub">○○</span></h2>
+  <p>（ここに本文）</p>
+  <a class="totop" href="#top">▲ 目次へ</a>
+</section>
+<!-- ▲ ここまでが1話ぶん。区切りの＊ごとコピーして増やす ▲ -->
+
+</body>
+</html>
